@@ -1,6 +1,6 @@
 # sb3-storage
 
-Turbowarp extension to store and read files inside an sb3 file. Files can contain binary content, although I don't know how other blocks would handle it. Filenames can contain
+Turbowarp extension to store and read files inside an sb3 file. Files can contain binary content, although I don't know how other blocks would handle it. Filenames can also be anything.
 
 The 'read file () from () to ()' block uses zero-indexed python string slicing, 'read file (x) from (-2) to (-1)' reads the second to last character of a file.
 
